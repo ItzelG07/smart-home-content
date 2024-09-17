@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html> 
     <head>
-        <title> Leisure & Study </title>
+        <title> Study & Nursery </title>
     </head>
     <body> 
 
@@ -15,29 +15,29 @@
             <h2> Study </h2>
         
         <h3> Fireplace </h3>
-        <img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
+        <img src="file:///C:/Users/150077263/Downloads/Fireplace.png" alt="Trulli" width="1080" height="1080">
         <p> Elevate your home ambiance effortlessly with our Smart House's automatic fireplace, which ignites and adjusts to your preferred settings with a simple command, creating a cozy and inviting atmosphere at the touch of a button.</p>
         
         <h3> Poetry Reader </h3>
-        <img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
+        <img src="file:///C:/Users/150077263/Downloads/Poetry%20Reader.png" alt="Trulli" width="1080" height="1080">
         <p> With simply a voiced request, our voice-activated poetry reader from Smart House will bring your favorite poems to life and enhance your surroundings with lovely phrases whenever you choose. </p>
         
         <h3> Music </h3>
-        <img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
+        <img src="file:///C:/Users/150077263/Downloads/Music.png" alt="Trulli" width="1080" height="1080">
         <p> Set the perfect mood with ease using our Smart House's voice-activated music system, which plays your favorite tunes instantly with a simple command, transforming any space into your personal concert hall. </p>
         
         <h3> Chairs </h3>
-        <img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
+        <img src="file:///C:/Users/150077263/Downloads/Chair.png" alt="Trulli" width="1080" height="1080">
         <p> Relax in ultimate comfort with our Smart House's automatic lounge chair, which effortlessly adjusts to your preferred position and settings with a single command, ensuring perfect relaxation every time. </p>
         
         <h2> Nursery </h2>
         
         <h3> Glass Walls </h3>
-        <img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
+        <img src="file:///C:/Users/150077263/Downloads/Glass%20Walls.png" alt="Trulli" width="1080" height="1080">
         <p> Create a soothing and magical environment for your little one with our Smart House's glowing glass walls in the nursery, which gently illuminate and adjust to provide a calming and enchanting atmosphere.</p>
         
         <h3> Media </h3>
-        <img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
+        <img src="file:///C:/Users/150077263/Downloads/Media.png" alt="Trulli" width="1080" height="1080">
         <p> Delight your child's senses with our Smart House's media system in the nursery, which combines immersive sounds and enchanting scents to create a fully engaging and soothing experience for your little one. </p>
         </section>
         
