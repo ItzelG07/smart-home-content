@@ -1,0 +1,21 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #012340;
+}
+li, a, button {
+    font-family: "Karla", system-ui;
+    font-weight: 400;
+    font-size: 24px;
+    font-optical-sizing: auto;
+    color: #04D9D9;
+}
+header{
+    display: flex;
+    Justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    height:100px;
+}
