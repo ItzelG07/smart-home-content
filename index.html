@@ -7,29 +7,67 @@
         <title> Smart Home Website </title>
         <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" herf="style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 <body>
     <header>
         <img class="logo" src="images/Logo Resized.png" alt="logo">
         <nav>
             <ul class="nav__links">
-                <li><a herf="#">Automated Systems</a></li>
-                <li><a herf="#">Safety & Security</a></li>
-                <li><a herf="#">Study & Nursery</a></li>
+                <li><a href="#">Automated Systems</a></li>
+                <li><a href="#">Safety & Security</a></li>
+                <li><a href="#">Study & Nursery</a></li>
             </ul>
         </nav>
-        <a class="cta" herf="#"><button>Join / Sign In</button></a>
+        <a class="btn join/sign-in" href="#"><button>Join / Sign In</button></a>
     </header>
 
 <main>
-    <section>
+    <section class="content">
         <h1> Welcome to the future of comfortable living </h1>
-        <video autoplay loop muted>
-            <source src="" type="">
+        <form id="search-form">
+            <nav class="search">
+              <input type="text" placeholder="Search" name="search" class="round" />
+              <input type="submit" class="corner" value="" />
+            </nav>
+        </form>
+        <video autoplay loop muted class="back video">
+            <source src="Images/Smart House Splashpage.mp4" type="video/mp4">
         </video>
     </section>
 </main>  
+
+<section class="column">
+    <br>
+    <h1> What is a Smart Home? </h1>
+    <br>
+    <nav class="row">
+        <nav class="smarthomes-right">
+            <h2>Smart Homes</h2>
+            <img alt="Smart Homes" src="Images/Garden Sprinklers.png">
+            <P> Our Smart Home features are designed to enhance your lifestyle through your total control and personalized living experiences. </P>
+            <a class="btn browse" href="#"><button>Browse</button></a>
+        </nav>
+        <nav class="automatedsystems-left">
+            <h2>Automated Systems</h2>
+            <img alt="Automated Systems" src="Images/Garden Sprinklers.png">
+            <P> Our advanced automated systems easily manage everything from your morning coffee to your evening entertainment, all at your command. </P>
+            <a class="btn browse" href="#"><button>Browse</button></a>
+        </nav>
+        <nav class="safety&security-right">
+            <h2>Safety & Security</h2>
+            <img alt="Safety & Security" src="Images/Garden Sprinklers.png">
+            <P> Our safety and security features provide real-time monitoring, smart alerts, and advanced protection for your home and loved ones. </P>
+            <a class="btn browse" href="#"><button>Browse</button></a>
+        </nav>
+        <nav class="study&nursery-left">
+            <h2>Study & Nursery</h2>
+            <img alt="Study & Nursery" src="Images/Garden Sprinklers.png">
+            <P> Our study and nursery features ensure comfort, productivity, and peace of mind for every family member. </P>
+            <a class="btn browse" href="#"><button>Browse</button></a>
+        </nav>
+    </nav>
+</section>
 
 
 </body>
