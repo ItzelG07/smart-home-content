@@ -14,61 +14,72 @@
         <img class="logo" src="images/Logo Resized.png" alt="logo">
         <nav>
             <ul class="nav__links">
-                <li><a href="#">Automated Systems</a></li>
-                <li><a href="#">Safety & Security</a></li>
-                <li><a href="#">Study & Nursery</a></li>
+                <li><a href="automated-systems.html">Automated Systems</a></li>
+                <li><a href="safety-security.html">Safety & Security</a></li>
+                <li><a href="study-nursery.html">Study & Nursery</a></li>
             </ul>
         </nav>
         <a class="btn join/sign-in" href="#"><button>Join / Sign In</button></a>
     </header>
 
 <main>
-    <section class="content">
-        <h1> Welcome to the future of comfortable living </h1>
-        <form id="search-form">
-            <nav class="search">
-              <input type="text" placeholder="Search" name="search" class="round" />
-              <input type="submit" class="corner" value="" />
-            </nav>
-        </form>
-        <video autoplay loop muted class="back video">
+    <section class="future-living-container">
+        <h1 class="future-living-title">Welcome to the future of comfortable living</h1>
+         <nav class="search-container">
+          <form class="search-form" role="search">
+            <label for="search-input" class="visually-hidden">Search</label>
+            <input type="search" id="search-input" class="search-text" placeholder="Search">
+            <button type="submit" class="search-button" aria-label="Submit search">
+                <img src="Images/material-symbols--search.png" alt="" class="search-icon">
+              </button>
+          </form>
+        </nav>
+      </section>
+        <video autoplay loop muted class="back-video">
             <source src="Images/Smart House Splashpage.mp4" type="video/mp4">
         </video>
-    </section>
 </main>  
 
+<section>
+    <h2 class="smart-home-title">
+        What is a Smart Home <span class="smart-home-title-emphasis">?</span>
+    </h2>
+</section>
 <section class="column">
-    <br>
-    <h1> What is a Smart Home? </h1>
-    <br>
     <nav class="row">
+            
+        <img class="smarthomes-left" alt="Smart Homes" src="Images/Patio Tables.png">
+
         <nav class="smarthomes-right">
             <h2>Smart Homes</h2>
-            <img alt="Smart Homes" src="Images/Garden Sprinklers.png">
             <P> Our Smart Home features are designed to enhance your lifestyle through your total control and personalized living experiences. </P>
-            <a class="btn browse" href="#"><button>Browse</button></a>
+            <a class="btn browse" href="browse-all.html"><button>Browse</button></a>
         </nav>
+
         <nav class="automatedsystems-left">
             <h2>Automated Systems</h2>
-            <img alt="Automated Systems" src="Images/Garden Sprinklers.png">
             <P> Our advanced automated systems easily manage everything from your morning coffee to your evening entertainment, all at your command. </P>
-            <a class="btn browse" href="#"><button>Browse</button></a>
+            <a class="btn browse" href="automated-systems.html"><button>Browse</button></a>
         </nav>
-        <nav class="safety&security-right">
+
+        <img class="automatedsystems-right" alt="Automated Systems" src="Images/Shudders.png">
+
+        <img class="safety-security-left" alt="Safety & Security" src="Images/Green Chemical.png">
+
+        <nav class="safety-security-right">
             <h2>Safety & Security</h2>
-            <img alt="Safety & Security" src="Images/Garden Sprinklers.png">
             <P> Our safety and security features provide real-time monitoring, smart alerts, and advanced protection for your home and loved ones. </P>
-            <a class="btn browse" href="#"><button>Browse</button></a>
+            <a class="btn browse" href="safety-security.html"><button>Browse</button></a>
         </nav>
-        <nav class="study&nursery-left">
+
+        <nav class="study-nursery-left">
             <h2>Study & Nursery</h2>
-            <img alt="Study & Nursery" src="Images/Garden Sprinklers.png">
             <P> Our study and nursery features ensure comfort, productivity, and peace of mind for every family member. </P>
-            <a class="btn browse" href="#"><button>Browse</button></a>
+            <a class="btn browse" href="study-nursery.html"><button>Browse</button></a>
         </nav>
+        <img class="study-nursery-right" alt="Study & Nursery" src="Images/Media.png">
     </nav>
 </section>
-
 
 </body>
 </html>
