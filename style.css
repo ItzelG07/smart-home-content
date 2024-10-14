@@ -1,79 +1,8 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: white;
-}
-
-li, a, button {
-    font-family: "Karla", system-ui;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-size: 24px;
-    font-style: normal;
-    color: #04D9D9;
-    background-color: #012340;
-}
-
- header {
-    display: flex;
-    Justify-content: space-between;
-    position: fixed;
-    align-items: center;
-    padding: 30px 5%;
-    height:100px;
-    width: 100%;
-    background-color: #012340;
-    z-index: 1000;
-    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
- }
-
-.logo {
-    cursor: pointer;
-}
-
-.nav__links {
-    list-style: none;
-    background-color: #012340;
-    padding-right:50px;
-}
-
-.nav__links li {
-    display: inline-block;
-    padding: 0px 50px;
-}
-
-.nav__links li a {
-    transition: all 0.3s ease 0s;
-}
-
-.nav__links li a:hover  {
-    color: white;
-}
-
-button {
-    border: 3px solid;
-    border-color: #04D9D9;
-    color: #04D9D9;
-    border-radius: 5px;
-    font-size: 24px;
-    padding: 9px 25px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-button:hover {
-    background-color: #04D9D9;
-    color: #012340;
-}
-
-a {
-    text-decoration: none;
 }
 
 .back-video{
@@ -82,7 +11,6 @@ a {
 
 .content {
     text-align: center;
-    position: center;
     bottom: 0;
 }
 
@@ -191,7 +119,7 @@ a {
 }
 
 .search-button:hover{
-    filter: invert(1) sepia(-1) saturate(600%) hue-rotate(175deg);
+    fill:#04D9D9;
 }
 
 .search-icon {
@@ -235,7 +163,6 @@ a {
     flex: 1;
     text-align: center;
     display: grid;
-    grid: auto-flow dense / repeat (2,50%);
 }
 
 .row {
@@ -279,7 +206,6 @@ a {
 .row p {
     color: black;
     font-family: "Karla", system-ui;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-size: 24px;
     font-style: normal;
@@ -290,8 +216,9 @@ a {
 }
 
 .row a {
-    background: transparent;
+   /* background: transparent;*/
 }
+
 
 .browse-amenities-title {
   color: #000;
@@ -316,7 +243,6 @@ a {
   flex: 1;
   text-align: center;
   display: grid;
-  grid: auto-flow dense / repeat (2,50%);
 }
 
 .browse-row{
@@ -374,158 +300,17 @@ a {
   background-color:rgba(0, 0, 0, 0.5);
 }
 
-footer{
-    background-color:#012340;
-    margin-top: 150px;
-    box-sizing:border-box;
+.btn-browse{
+  border-radius:5px;
+  border-color:#04D9D9;
+  border-style:solid;
+  border-width:3px;
+  padding: 12px 24px;
+  background-color:#012340;
+  color:#04D9D9;
 }
 
-.footer {
-    background-color:#012340;
-    padding:0;
-    margin:0;
+.btn-browse:hover{
+  background-color:#04D9D9;
+  color:#012340;
 }
-
-.footer-row{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 1rem;
-}
-
-/*.footer-all {
-    position:absolute;
-    bottom:0;
-    left: 0;
-    width:100%;
-    min-height:100px;   
-    background-color: #012340;
-  }*/
-
-  .footer .footer-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 3.5rem;
-    padding: 60px;
-    background-color: transparent;
-  }
-
-  .footer-row .footer-col h4 {
-    color:#04D9D9;
-    font-family: "Konkhmer Sleokchher", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 38px;
-    font-size: 1.2rem;
-    font-weight: 400;
-    background-color: transparent;
-    padding:20px;
-  }
-
-  .footer-col .links {
-    padding: 20px;
-    background-color: transparent;
-  }
-
-  .footer-col .links li {
-    list-style: none;
-    padding-bottom: 10px;
-  }
-
-  .footer-col .links li a {
-    text-decoration: none;
-    font-family: "Karla", system-ui;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-size: 24px;
-    color:#04D9D9;
-  }
-
-  .footer-col .links li a:hover {
-    color: #fff;
-  }
-
-  .footer-col p {
-    padding: 20px;
-    padding-bottom: 58px;
-    background-color:#012340;
-    text-decoration: none;
-    font-family: "Karla", system-ui;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-size: 24px;
-    color:#04D9D9;
-    max-width: 350px;
-    text-align:left;
-  }
-
-  .footer-col form {
-    display: flex;
-    gap: 5px;
-  }
-
-  .footer-col input {
-    height: 40px;
-    border-radius: 6px;
-    width: 100%;
-    outline: none;
-    border: 1px solid #7489C6 ;
-    background-color: #fff;
-    caret-color: #fff;
-    color: black;
-    padding-left: 10px;
-  }
-
-  .footer-col input::placeholder {
-    color: #ccc;
-  }
-   .footer-col form button {
-    background:#0477BF;
-    padding: 5px 15px;
-    border-radius: 6px;
-    cursor: pointer;
-    text-decoration: none;
-    font-family: "Karla", system-ui;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-size: 20px;
-    transition: 0.2s ease;
-  }
-
-  .footer-col form button:hover {
-    background:#fff;
-    color:#04D9D9;
-  }
-  
-  @media (max-width: 768px) {
-    .footer {
-      position: relative;
-      bottom: 0;
-      left: 0;
-      transform: none;
-      width: 100%;
-      border-radius: 0;
-    }
-    .footer .footer-row {
-      padding: 10px;
-      gap: 1rem;
-    }
-    .footer-col form {
-      display: block;
-    }
-    .footer-col form :where(input, button) {
-      width: 100%;
-    }
-    .footer-col form button {
-      margin: 10px 0 0 0;
-    }
-  }
-
-  .footer-col, 
-  .footer-row, 
-  .footer-col .links, 
-  .footer-col p, 
-  .footer-col form{
-    background-color: inherit;
-  }

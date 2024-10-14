@@ -7,7 +7,6 @@
 
 li, a, button {
     font-family: "Karla", system-ui;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-size: 24px;
     font-style: normal;
@@ -35,11 +34,12 @@ li, a, button {
 .nav__links {
     list-style: none;
     background-color: #012340;
+    padding-right:50px;
 }
 
 .nav__links li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 50px;
 }
 
 .nav__links li a {
@@ -59,6 +59,10 @@ button {
     padding: 9px 25px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 button:hover {
